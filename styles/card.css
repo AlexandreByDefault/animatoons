@@ -1,0 +1,39 @@
+.card{
+    height: 255px;
+    width: 213px;
+    border: 1px solid black;
+    margin-top: 5px;
+    background-color: rgb(14, 7, 7);
+    margin: 10px ;
+}
+
+.card > .card_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.card_trailer{ 
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   height: inherit;
+  width: 100%;
+
+}
+.card > .card_main > .card_trailer > button{
+    border: 1px solid white;
+    border-radius:5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.card > .card_main > .card_trailer > .youtube{
+    background-color: orange;
+   
+}
+.card > .card_main > .card_trailer > .watch{
+    background-color: rgb(25, 153, 78);
+    
+}

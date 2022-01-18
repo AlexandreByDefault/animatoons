@@ -1,0 +1,19 @@
+form{
+    margin-top: 10px;
+}
+
+.search_input{
+    display: flex;
+    align-items: center;
+
+}
+.search_svg_icon{
+    background-color: rgb(0, 0, 0);
+   
+    width: fit-content;
+}
+input::placeholder{
+    font-size: 10px;
+    text-align: center;
+
+}
